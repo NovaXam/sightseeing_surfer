@@ -1,5 +1,3 @@
-\connect sightseeing_db_dev;
-
 INSERT INTO sightseeings (name, city, picture) VALUES
 ('Empire State Building', 'New York', '/pictures/ESB.jpg'),
 ('Broklyn bridge', 'New York', '/pictures/brooklynBridge.jpg'),

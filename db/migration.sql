@@ -1,5 +1,3 @@
-\connect sightseeing_db_dev;
-
 DROP TABLE IF EXISTS sightseeings;
 
 CREATE TABLE sightseeings (

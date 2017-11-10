@@ -1,6 +1,5 @@
 const db = require('../db/config');
 
-
 const Quote = {};
 
 Quote.findAll = () => {
