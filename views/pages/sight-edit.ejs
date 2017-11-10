@@ -1,0 +1,22 @@
+<% include ../partials/header.ejs %>
+
+<main>
+  <div class="sightSingle">
+    <div class="sightHeader">
+      <form method='POST' action='/sights/<%= data.id %>?_method=PUT'>
+        <input name='id' type='hidden' value='<%= data.id %>' />
+        <h1><%= data.name.toUpperCase() %></h1>
+        <h3><%= data.city %></h3>
+        <input name='name' type='hidden' value='<%= data.name.toUpperCase() %>' />
+        <input name='city' type='hidden' value='<%= data.city %>' />
+        <input id='status' name='status' type='checkbox' value='<%= data.status %>' checked/> Visited<br>
+        <input name='description' type='text' value='<%= data.description %>' maxlength="500"/>
+        <input name='picture' type='text' value='<%= data.picture %>' />
+        <input type='Submit' value='Save'>
+      </form>
+    </div>
+        <img id='picSingleEdit' src='<%= data.picture %>' />
+  </div>
+</main>
+
+<% include ../partials/footer.ejs %>

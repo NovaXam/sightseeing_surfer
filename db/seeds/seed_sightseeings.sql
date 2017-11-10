@@ -1,0 +1,28 @@
+\connect sightseeing_db_dev;
+
+INSERT INTO sightseeings (name, city, picture) VALUES
+('Empire State Building', 'New York', '/pictures/ESB.jpg'),
+('Broklyn bridge', 'New York', '/pictures/brooklynBridge.jpg'),
+('Statue of Liberty', 'New York', '/pictures/sLiberty.jpg'),
+('Flatron buildng', 'New York', '/pictures/Flatron.jpg'),
+('Guggenheim Museum', 'New York', '/pictures/guggen.jpg'),
+('Eiffel tower', 'Paris', '/pictures/eiffelTower.jpg'),
+('Notre Dame de Paris', 'Paris', '/pictures/NotreDame.jpg'),
+('Louvre', 'Paris', '/pictures/Louvre.jpg'),
+('Centre Pompidou', 'Paris', '/pictures/pampidou.jpg'),
+('Arc de Triomphe', 'Paris', '/pictures/arcDeTriumph.jpg'),
+('Big ban', 'London', '/pictures/bigBan.jpg'),
+('London_Eye', 'London', '/pictures/lEye.jpg'),
+('Salvador Dali Museum', 'London', '/pictures/Dali.jpg'),
+('London Tower Bridge', 'London', '/pictures/towerBridge.jpg'),
+('London Gherkin', 'London', '/pictures/eggLondon.jpg'),
+('Motherland Monument', 'Kiev', '/pictures/mother.jpg'),
+('Archangel Michael', 'Kiev', '/pictures/maydan.jpg'),
+('Memorial of Holodomor', 'Kiev', '/pictures/Memorial-Kiev.jpg'),
+('Catholic church', 'Kiev', '/pictures/catholic_church.jpg'),
+('Sofia church', 'Kiev', '/pictures/kievSofia.jpg'),
+('Famous bridge of Budapest', 'Budapest', '/pictures/bridgeBuda.jpg'),
+('Old city of Budapest', 'Budapest', '/pictures/budaSphere.jpg'),
+('Cathedral of Budapest', 'Budapest', '/pictures/budaSphere.jpg'),
+('Street view of Budapest', 'Budapest', '/pictures/budView.jpg'),
+('Sky view of Budapest', 'Budapest', '/pictures/bridgeParl.jpg');

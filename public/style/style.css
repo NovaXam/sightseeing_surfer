@@ -1,0 +1,191 @@
+header {
+  position: absolute;
+  width: 1300px;
+  height: 100px;
+  background-color: rgb(64,130,200);
+  left: 150px;
+  border-bottom-left-radius: 75px;
+}
+main {
+  flex-direction: row;
+  display: inline-flex;
+  flex-wrap: wrap;
+  position: absolute;
+  margin: 0 auto;
+  top: 150px;
+  left: 175px;
+  height: 600px;
+  width: 1100px;
+}
+
+.menu {
+  position: absolute;
+  left: -150px;
+}
+
+.logo {
+  position: absolute;
+  left: -130px;
+}
+
+.welcome ul {
+  position: absolute;
+  display: inline-flex;
+  justify-content: space-between;
+  flex-direction: row;
+  left: 200px;
+  top: 200px;
+  height: 300px;
+  width: 1000px;
+  box-shadow: 5px -1px 2px rgba(166,178,42, 0.4);
+  border-bottom-left-radius: 70px;
+  border: 1px solid lightgrey;
+}
+
+.quote {
+  color: rgb(186,204,11);
+  font-family: helvetica;
+  font-size: 500px;
+  margin: 28px 10px;
+  top: -100px;
+}
+
+.middleText {
+  color: rgb(3,80,110);
+  font-size: 20px;
+  line-height: 25px;
+  font-family: Wire+One;
+  font-weight: 200;
+  margin: 70px 10px;
+  text-align: justify;
+}
+
+
+.seeing {
+  border: 1px solid lightgrey;
+  box-shadow: 5px -1px 2px rgba(166,178,42, 0.3);
+  margin: 20px;
+  border-radius: 10px;
+  border-bottom-left-radius: 70px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 15px;
+}
+
+ul {
+  position: absolute;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  left: 885px;
+  top: 70px;
+  font-family: helvetica;
+  font-weight: 400;
+  width: 350px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+
+li {
+  margin: 0px 10px;
+  color: white;
+  font-style: helvetica;
+  text-decoration: none;
+
+}
+
+.sightHeader{
+  font-family: helvetica;
+  margin: 7px;
+}
+
+
+.picIcon {
+  height: 300px;
+  width: 225px;
+}
+
+#buttons {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.sightsForm {
+  margin: 10 20px;
+}
+
+#descList {
+  margin: 10px;
+}
+
+.sightSingle {
+  margin: 0 auto;
+  width: 600px;
+  height: 500px;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 10px;
+  border-bottom-left-radius: 70px;
+  border: 1px solid lightgrey;
+  box-shadow: 5px -1px 2px rgb(240,240,240);
+
+}
+
+#picSingleEdit {
+  float: left;
+  height: 350px;
+  width: 300px;
+  clear: both;
+}
+
+.picSingle {
+  float: left;
+  height: 400px;
+  width: 325px;
+  clear: both;
+}
+
+#descSingle {
+  float: left;
+  height: 400px;
+  width: 265px;
+  font-family: helvetica;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: rgba(214,232,223, 0.3);
+  padding: 10px;
+  margin: 0px 0px 0px 5px;
+}
+
+.addForm {
+  display: inline-block;
+  padding: 10px;
+  width: 300px;
+  height: 400px;
+  left: 580px;
+  top: 175px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgba(186,204,11,0.8);
+}
+
+.inputFieldsCreate {
+  display: inline-flex;
+}
+
+#descAdd {
+  height: 100px;
+}
+
+.inField {
+  margin: 10px;
+  height: 30px;
+  font-size: 15px;
+}

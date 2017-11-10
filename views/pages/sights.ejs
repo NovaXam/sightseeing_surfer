@@ -1,0 +1,29 @@
+<% include ../partials/header.ejs %>
+
+<main>
+    <% for (let sight of data) { %>
+        <div class="seeing">
+          <div class="sightHeader">
+            <h1 style='font-size: 13px'><%= sight.name.toUpperCase() %></h1>
+           <h3 style='color:rgb(166,178,42);font-family:Poppins;margin:3px;'><%= sight.city %></h3>
+          </div>
+      <a href='/sights/<%= sight.id %>' >
+          <img class="picIcon" src="<%= sight.picture %>">
+      </a>
+          <div id="descList">
+            <p style='font-family:arial'><%= sight.description.substring(0, 30) %> </p>
+          </div>
+          <input type="checkbox" name='status'> visited <br>
+          <div id="buttons">
+            <form class="sightsForm" action="sights/<%= sight.id %>/edit" method='GET'>
+              <input type='Submit' value='Edit'>
+            </form>
+            <form class="sightsForm" method="POST" action="/sights/<%= sight.id %>?_method=Delete">
+              <input type='Submit' value='delete'>
+            </form>
+          </div>
+        </div>
+    <% } %>
+</main>
+
+<% include ../partials/footer.ejs %>

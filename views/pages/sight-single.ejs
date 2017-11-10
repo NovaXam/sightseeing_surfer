@@ -1,0 +1,25 @@
+<% include ../partials/header.ejs %>
+
+<main>
+    <div class="sightSingle">
+      <div class="sightHeader">
+        <h1><%= data.name.toUpperCase() %></h1>
+        <h3><%= data.city %></h3>
+      </div>
+      <img class="picSingle" src="<%= data.picture %>">
+      <div id="descSingle">
+        <p><%= data.description %> </p>
+      </div>
+      <input class="clear" type="checkbox" name='status'> Visited <br>
+      <div id="buttons">
+        <form class="sightsForm" action="<%= sight.id %>/edit" method="GET">
+          <input type="Submit" value="Edit" />
+        </form>
+        <form class="sightsForm" method="POST" action="/sights/<%= sight.id %>?_method=Delete">
+          <input type="Submit" value="delete" />
+        </form>
+      </div>
+    </div>
+</main>
+
+<% include ../partials/footer.ejs %>
